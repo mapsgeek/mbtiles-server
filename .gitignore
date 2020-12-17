@@ -1,0 +1,5 @@
+yarn.lock
+*.mbtiles
+node_modules
+.directory
+*.sh

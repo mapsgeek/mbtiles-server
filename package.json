@@ -2,14 +2,17 @@
   "name": "tiles",
   "version": "0.0.0",
   "description": "",
-  "main": "tileserver.js",
+  "main": "index.js",
   "dependencies": {
-    "express": "*",
-    "mbtiles": "*"
+    "@mapbox/tiletype": "^0.3.1",
+    "fastify": "^3.4.1",
+    "fastify-caching": "^6.0.1",
+    "fastify-cors": "^4.1.0",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": "https://github.com/tobinbradley/mbtiles-server",
   "author": "Tobin Bradley",
